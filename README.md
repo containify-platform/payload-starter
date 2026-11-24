@@ -1,8 +1,10 @@
 # Payload starter
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/payload)
+
 A [Payload 3](https://payloadcms.com) CMS on Next.js with Postgres, ready to deploy on
-[Containify](https://containify.net). It's the source of the
-[Payload template](https://containify.net/templates/payload).
+[Containify](https://containify.cloud). It's the source of the
+[Payload template](https://containify.cloud/templates/payload).
 
 What's in it:
 
@@ -40,6 +42,10 @@ The next deploy runs it before the server takes requests.
 
 ## Deploy on Containify
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/payload)
+
+One click deploys it on [Containify](https://containify.cloud). The [template page](https://containify.cloud/templates/payload) shows what it creates, and passwords, connection strings and the HTTPS address are filled in for you.
+
 Deploy the Payload template from the Containify catalogue: it builds this repo, adds
 Postgres, generates `PAYLOAD_SECRET` and mounts a volume for uploads. To ship your own
 collections, fork this repo and point the Payload app at your fork.
@@ -58,3 +64,7 @@ collections, fork this repo and point the Payload app at your fork.
 ## License
 
 MIT
+
+---
+
+Made by [Containify](https://containify.cloud): deploy apps, databases and workers from a Git repo or an image, with per-second billing. [Docs](https://containify.cloud/docs) · [Templates](https://containify.cloud/templates)
